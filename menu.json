@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nama": "Kopi Tubruk Nusantara",
+    "kategori": "Kopi",
+    "deskripsi": "Kopi hitam tradisional dengan biji pilihan Flores Bajawa, diseduh langsung.",
+    "harga": 22000,
+    "gambar_url": "[https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80](https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80)",
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "nama": "Caffè Latte Aren",
+    "kategori": "Kopi",
+    "deskripsi": "Espresso premium dipadu susu segar dan manisnya gula aren asli.",
+    "harga": 28000,
+    "gambar_url": "[https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80](https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80)",
+    "rating": 4.9
+  },
+  {
+    "id": 3,
+    "nama": "Manual Brew V60",
+    "kategori": "Kopi",
+    "deskripsi": "Single origin Gayo Aceh dengan notes fruity dan clean aftertaste.",
+    "harga": 30000,
+    "gambar_url": "[https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80](https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80)",
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "nama": "Es Kopi Susu Omah",
+    "kategori": "Kopi",
+    "deskripsi": "Signature menu dengan racikan creamy, espresso house blend, dan creamer spesial.",
+    "harga": 25000,
+    "gambar_url": "[https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=600&q=80](https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=600&q=80)",
+    "rating": 5.0
+  },
+  {
+    "id": 5,
+    "nama": "Matcha Green Tea Latte",
+    "kategori": "Non-Kopi",
+    "deskripsi": "Bubuk matcha Jepang murni dengan susu segar bertekstur lembut.",
+    "harga": 32000,
+    "gambar_url": "[https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=600&q=80](https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=600&q=80)",
+    "rating": 4.6
+  },
+  {
+    "id": 6,
+    "nama": "Artisanal Chocolate",
+    "kategori": "Non-Kopi",
+    "deskripsi": "Cokelat lokal pilihan dengan rasa rich, dark, dan menenangkan.",
+    "harga": 30000,
+    "gambar_url": "[https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=600&q=80](https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=600&q=80)",
+    "rating": 4.8
+  },
+  {
+    "id": 7,
+    "nama": "Pisang Goreng Keju Sambal Roa",
+    "kategori": "Makanan Ringan",
+    "deskripsi": "Pisang crispy renyah disajikan dengan keju melimpah dan sambal roa khas.",
+    "harga": 25000,
+    "gambar_url": "[https://images.unsplash.com/photo-1603052875302-d376b7c0638a?auto=format&fit=crop&w=600&q=80](https://images.unsplash.com/photo-1603052875302-d376b7c0638a?auto=format&fit=crop&w=600&q=80)",
+    "rating": 4.9
+  },
+  {
+    "id": 8,
+    "nama": "Platter Jajanan Pasar",
+    "kategori": "Makanan Ringan",
+    "deskripsi": "Aneka kue tradisional pilihan yang cocok untuk teman ngopi sore.",
+    "harga": 35000,
+    "gambar_url": "[https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80](https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80)",
+    "rating": 4.7
+  }
+]

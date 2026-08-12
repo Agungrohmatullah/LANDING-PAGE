@@ -1,0 +1,37 @@
+omah-kopi/
+├── backend/
+│   ├── data/
+│   │   ├── menu.json
+│   │   ├── reservations.json
+│   │   └── testimonials.json
+│   ├── routes/
+│   │   └── api.js
+│   ├── package.json
+│   └── server.js
+├── public/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── index.html
+└── README.md
+---
+
+### 1. Struktur Backend (Node.js + Express)
+
+#### `backend/package.json`
+```json
+{
+  "name": "omah-kopi-backend",
+  "version": "1.0.0",
+  "description": "Backend API untuk Omah Kopi Restaurant",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

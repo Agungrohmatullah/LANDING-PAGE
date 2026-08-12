@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omah Kopi | Restoran & Kedai Kopi Nusantara</title>
+  <meta name="description" content="Omah Kopi menyajikan biji kopi pilihan dari berbagai daerah dengan suasana hangat untuk nongkrong maupun bekerja.">
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Omah Kopi | Restoran & Kedai Kopi Nusantara">
+  <meta property="og:description" content="Rasakan kenikmatan kopi nusantara di setiap cangkir dengan suasana homey.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="[https://fonts.googleapis.com](https://fonts.googleapis.com)">
+  <link rel="preconnect" href="[https://fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
+  <link href="[https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@300;400;500;600&display=swap](https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@300;400;500;600&display=swap)" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="[https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css)">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Skip Link untuk Aksesibilitas -->
+  <a href="#main-content" class="skip-link">Lewati ke konten utama</a>
+
+  <!-- Header & Navigation -->
+  <header id="header" class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">Omah Kopi</a>
+      
+      <nav class="nav-menu" id="nav-menu" aria-label="Navigasi Utama">
+        <ul class="nav-list">
+          <li><a href="#beranda" class="nav-link">Beranda</a></li>
+          <li><a href="#tentang" class="nav-link">Tentang</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#galeri" class="nav-link">Galeri</a></li>
+          <li><a href="#testimoni" class="nav-link">Testimoni</a></li>
+          <li><a href="#reservasi" class="nav-link">Reservasi</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#reservasi" class="btn btn-gold reservation-btn">Reservasi</a>
+        <button class="burger-menu" id="burger-menu" aria-label="Toggle Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- Hero Section -->
+    <section id="beranda" class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1 class="hero-title fade-in">Rasakan Kenikmatan Kopi Nusantara di Setiap Cangkir</h1>
+        <p class="hero-subtitle slide-up">Omah Kopi menyajikan biji kopi pilihan dari berbagai daerah dengan suasana hangat untuk nongkrong maupun bekerja.</p>
+        <div class="hero-buttons slide-up">
+          <a href="#menu" class="btn btn-outline-white">Lihat Menu</a>
+          <a href="#reservasi" class="btn btn-gold">Reservasi Sekarang</a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <a href="#tentang" aria-label="Gulir ke bawah">
+          <i class="fa-solid fa-chevron-down"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Tentang Kami Section -->
+    <section id="tentang" class="section about-section">
+      <div class="container grid-2">
+        <div class="about-image-wrapper reveal">
+          <img src="[https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80](https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80)" alt="Suasana hangat interior Omah Kopi" loading="lazy">
+          <div class="rating-badge">
+            <i class="fa-solid fa-star"></i>
+            <span><strong>4.9</strong> / 500+ Ulasan</span>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <span class="section-tag">Sejak 2018</span>
+          <h2 class="section-title">Tentang Omah Kopi</h2>
+          <p>Bermula dari kecintaan mendalam terhadap kekayaan biji kopi lokal Indonesia, Omah Kopi hadir sebagai ruang temu bagi para penikmat kopi, pekerja kreatif, dan keluarga.</p>
+          <p>Kami berkomitmen menghadirkan biji kopi pilihan langsung dari petani lokal Nusantara, disangrai dengan presisi, dan disajikan dalam suasana rumah yang hangat serta ramah lingkungan.</p>
+          <a href="#menu" class="text-link">Pelajari lebih lanjut <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section menu-section bg-light">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Pilihan Spesial</span>
+          <h2 class="section-title">Menu Favorit Pengunjung</h2>
+          <p class="section-desc">Nikmati ragam racikan kopi nusantara, minuman non-kopi menyegarkan, serta makanan ringan pendamping yang menggugah selera.</p>
+        </div>
+
+        <!-- Filter Kategori -->
+        <div class="menu-filters reveal">
+          <button class="filter-btn active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="Kopi">Kopi</button>
+          <button class="filter-btn" data-filter="Non-Kopi">Non-Kopi</button>
+          <button class="filter-btn" data-filter="Makanan Ringan">Makanan Ringan</button>
+        </div>
+
+        <!-- Grid Menu Dynamic Render -->
+        <div class="menu-grid" id="menu-grid">
+          <!-- Data dimuat via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeri Suasana Section -->
+    <section id="galeri" class="section gallery-section">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Galeri Suasana</span>
+          <h2 class="section-title">Sudut Nyaman di Omah Kopi</h2>
+        </div>
+        <div class="gallery-grid reveal">
+          <div class="gallery-item"><img src="[https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80](https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80)" alt="Suasana cafe aesthetic" loading="lazy"></div>
+          <div class="gallery-item"><img src="[https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80](https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80)" alt="Barista meracik kopi manual brew" loading="lazy"></div>
+          <div class="gallery-item"><img src="[https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=600&q=80](https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=600&q=80)" alt="Area tempat duduk outdoor" loading="lazy"></div>
+          <div class="gallery-item"><img src="[https://images.unsplash.com/photo-1507133754945-2bc879a929dd?auto=format&fit=crop&w=600&q=80](https://images.unsplash.com/photo-1507133754945-2bc879a929dd?auto=format&fit=crop&w=600&q=80)" alt="Cangkir kopi latte art" loading="lazy"></div>
+          <div class="gallery-item"><img src="[https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=600&q=80](https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=600&q=80)" alt="Suasana malam di Omah Kopi" loading="lazy"></div>
+          <div class="gallery-item"><img src="[https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80](https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80)" alt="Biji kopi pilihan nusantara" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section id="testimoni" class="section testimonial-section bg-light">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Ulasan Pelanggan</span>
+          <h2 class="section-title">Kata Mereka Tentang Kami</h2>
+        </div>
+
+        <div class="testimonial-carousel-wrapper reveal">
+          <div class="testimonial-track" id="testimonial-track" role="region" aria-label="Testimoni Pengunjung">
+            <!-- Data dimuat via JavaScript -->
+          </div>
+          
+          <div class="carousel-controls">
+            <button class="carousel-btn prev-btn" aria-label="Testimoni Sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="carousel-dots" id="carousel-dots"></div>
+            <button class="carousel-btn next-btn" aria-label="Testimoni Selanjutnya"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservasi Section -->
+    <section id="reservasi" class="section reservation-section">
+      <div class="container">
+        <div class="reservation-card reveal">
+          <div class="section-header text-center">
+            <span class="section-tag">Pesan Tempat</span>
+            <h2 class="section-title">Pesan Meja Sekarang</h2>
+            <p class="section-desc">Amankan meja terbaik Anda untuk kunjungan kerja, kencan, atau kumpul bersama teman.</p>
+          </div>
+
+          <form id="reservation-form" class="reservation-form" novalidate>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="nama">Nama Lengkap <span class="required">*</span></label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+                <span class="error-msg" id="error-nama"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Alamat Email <span class="required">*</span></label>
+                <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+                <span class="error-msg" id="error-email"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="telepon">Nomor Telepon/WhatsApp <span class="required">*</span></label>
+                <input type="tel" id="telepon" name="telepon" placeholder="081234567890" required>
+                <span class="error-msg" id="error-telepon"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="tanggal">Tanggal Reservasi <span class="required">*</span></label>
+                <input type="date" id="tanggal" name="tanggal" required>
+                <span class="error-msg" id="error-tanggal"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="waktu">Waktu Kedatangan <span class="required">*</span></label>
+                <select id="waktu" name="waktu" required>
+                  <option value="">Pilih Jam</option>
+                  <option value="08:00 - 10:00">08:00 - 10:00</option>
+                  <option value="10:00 - 12:00">10:00 - 12:00</option>
+                  <option value="13:00 - 15:00">13:00 - 15:00</option>
+                  <option value="15:00 - 17:00">15:00 - 17:00</option>
+                  <option value="17:00 - 19:00">17:00 - 19:00</option>
+                  <option value="19:00 - 22:00">19:00 - 22:00</option>
+                </select>
+                <span class="error-msg" id="error-waktu"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="jumlah_tamu">Jumlah Tamu <span class="required">*</span></label>
+                <input type="number" id="jumlah_tamu" name="jumlah_tamu" min="1" max="10" value="2" required>
+                <span class="error-msg" id="error-jumlah_tamu"></span>
+              </div>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="catatan">Catatan Khusus (Opsional)</label>
+              <textarea id="catatan" name="catatan" rows="3" placeholder="Contoh: Meja dekat jendela untuk 4 orang..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-gold full-width-btn" id="submit-btn">Kirim Reservasi</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lokasi & Kontak Section -->
+    <section id="kontak" class="section contact-section bg-light">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Kunjungi Kami</span>
+          <h2 class="section-title">Lokasi & Kontak</h2>
+        </div>
+
+        <div class="contact-grid reveal">
+          <div class="map-container">
+            <iframe 
+              src="[https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.915745142147!2d110.3644563!3d-7.7955798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwNDc7NDQuMSJTIDExMMKwMjInNTIuMSJF!5e0!3m2!1sid!2sid!4v1620000000000!5m2!1sid!2sid](https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.915745142147!2d110.3644563!3d-7.7955798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwNDc7NDQuMSJTIDExMMKwMjInNTIuMSJF!5e0!3m2!1sid!2sid!4v1620000000000!5m2!1sid!2sid)" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              title="Peta Lokasi Omah Kopi Yogyakarta">
+            </iframe>
+          </div>
+
+          <div class="contact-info">
+            <h3>Omah Kopi Yogyakarta</h3>
+            <ul class="info-list">
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <strong>Alamat</strong>
+                  <p>Jl. Kopi Nusantara No. 123, Gondokusuman, Yogyakarta 55223</p>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                  <strong>Jam Buka</strong>
+                  <p>Setiap Hari: 08.00 - 22.00 WIB</p>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <strong>Telepon / WhatsApp</strong>
+                  <p>+62 812-3456-7890</p>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <strong>Email</strong>
+                  <p>halo@omahkopi.id</p>
+                </div>
+              </li>
+            </ul>
+            <div class="contact-social">
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="#" class="footer-logo">Omah Kopi</a>
+        <p class="footer-desc">Menghadirkan kehangatan cita rasa kopi nusantara berkualitas tinggi dalam suasana kekeluargaan yang nyaman.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigasi Cepat</h4>
+        <ul class="footer-links">
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#tentang">Tentang Kami</a></li>
+          <li><a href="#menu">Menu Favorit</a></li>
+          <li><a href="#testimoni">Testimoni</a></li>
+          <li><a href="#reservasi">Reservasi Meja</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Kategori Menu</h4>
+        <ul class="footer-links">
+          <li><a href="#menu">Kopi Tubruk & Manual Brew</a></li>
+          <li><a href="#menu">Espresso Based</a></li>
+          <li><a href="#menu">Non-Kopi & Artisanal</a></li>
+          <li><a href="#menu">Makanan Ringan Nusantara</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Buletin & Promo</h4>
+        <p>Dapatkan informasi diskon menarik dan peluncuran menu musiman.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Terima kasih telah berlangganan!');">
+          <input type="email" placeholder="Alamat email Anda" required aria-label="Email buletin">
+          <button type="submit" class="btn btn-gold">Kirim</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Omah Kopi. Hak Cipta Dilindungi Undang-Undang.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Tombol WhatsApp Melayang -->
+  <a href="[https://wa.me/6281234567890?text=Halo%20Omah%20Kopi%2C%20saya%20ingin%20reservasi](https://wa.me/6281234567890?text=Halo%20Omah%20Kopi%2C%20saya%20ingin%20reservasi)" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Hubungi WhatsApp Omah Kopi">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Modal Popup Sukses / Gagal -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-card" id="modal-card">
+      <div class="modal-icon" id="modal-icon"><i class="fa-solid fa-circle-check"></i></div>
+      <h3 id="modal-title">Berhasil!</h3>
+      <p id="modal-message">Reservasi Anda telah kami terima. Kami akan segera mengirimkan konfirmasi.</p>
+      <button class="btn btn-gold" id="modal-close-btn">Tutup</button>
+    </div>
+  </div>
+
+  <!-- Custom JavaScript -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>

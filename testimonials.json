@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nama": "Rian Pratama",
+    "profesi": "Software Engineer & Content Creator",
+    "foto_url": "[https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80](https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80)",
+    "teks": "Tempat paling nyaman buat WFH di Yogyakarta! Kopi susu arennya juara dan koneksi internetnya super ngebut. Suasananya bikin betah berjam-jam.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "nama": "Siti Rahmawati",
+    "profesi": "Mahasiswa & Penulis Lepas",
+    "foto_url": "[https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80](https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80)",
+    "teks": "Suka banget sama konsep interior tradisional modern di Omah Kopi. Baristanya ramah dan Manual Brew V60-nya punya profil rasa yang konsisten.",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "nama": "Dimas Nugroho",
+    "profesi": "Arsitek",
+    "foto_url": "[https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=150&q=80](https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=150&q=80)",
+    "teks": "Ambience-nya tenang buat ngobrol santai atau meeting informal. Pisang goreng sambal roanya wajib dicoba kalau kesini!",
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "nama": "Anisa Maharani",
+    "profesi": "Digital Marketer",
+    "foto_url": "[https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80](https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80)",
+    "teks": "Pilihan menu non-kopinya juga gak kalah enak. Matcha latte terenak di daerah sini dengan harga yang sangat ramah di kantong anak muda.",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "nama": "Bayu Saputra",
+    "profesi": "Fotografer Freelance",
+    "foto_url": "[https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80)",
+    "teks": "Setiap sudut cafe ini fotogenik banget. Pelayanan cepat dan reservasi meja online-nya gampang banget dipakai lewat web.",
+    "rating": 5
+  }
+]
